@@ -1,7 +1,16 @@
 aid: divine
 name: Divine
-description: 'Divine is a company surfaced as a portfolio company of paradigm and added to the API Evangelist
-  network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Divine Research Inc. is a fintech company building blockchain-based unsecured lending for
+  underserved borrowers in emerging markets. Its flagship product, Credit, issues small
+  stablecoin (USDC) loans that start small and can grow to $1,000 as borrowers build trust,
+  with algorithmically set interest rates and default rates that have approached zero.
+  Borrowers access loans through a World MiniApp, while liquidity providers supply capital
+  and earn yield through the Credit Vault at credit.cash. As of late 2024 the platform had
+  issued hundreds of thousands of loans to more than 500,000 borrowers. Divine is backed by
+  Paradigm and was surfaced through its portfolio; this profile is maintained in the API
+  Evangelist network. Divine currently publishes no public developer API, SDKs, or
+  machine-readable API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/divine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,29 @@ x-backed-by:
 - paradigm
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://divine.inc/og-image.png
 tags:
 - Company
 - Crypto
+- Fintech
+- Lending
+- Stablecoins
+- DeFi
+- Credit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://divine.inc
+- type: Blog
+  url: https://writing.divine.inc
+- type: BlogRSS
+  url: https://writing.divine.inc/rss/
+- type: GitHubOrganization
+  url: https://github.com/DivineResearch
+- type: TermsOfService
+  url: https://divine.inc/terms
+- type: PrivacyPolicy
+  url: https://divine.inc/privacy
+- type: DomainSecurity
+  url: security/divine-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
